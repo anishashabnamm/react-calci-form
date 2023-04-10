@@ -1,2 +1,2 @@
 vercel link: https://react-calci-form-ten.vercel.app/
-git repository: react-calci-form
+git repository: https://github.com/anishashabnamm/react-calci-form
