@@ -1,5 +1,5 @@
 import axios from "axios";
-
+import './Api.css'
 import React, { Component } from 'react'
 
 export class Api extends Component {
@@ -28,9 +28,10 @@ export class Api extends Component {
     const {apipost,errormessage}=this.state
     return (
         <React.Fragment>
-            <div>Rick And Morty</div>
-            <div>
-                {apipost.length?apipost.map(a=> <div key={a.id}>{a.name}<br></br><img src={a.image} alt="loading"></img></div>):null}
+            <div className="rm">Rick And Morty</div>
+            <div className="">
+                {apipost.length?apipost.map(a=> <div className="apidata" key={a.id}>
+                                                                            {a.name}<br></br><img src={a.image} alt="loading"></img></div>):null}
                 {errormessage?<div>{errormessage}</div>:null}
             </div>
         </React.Fragment>

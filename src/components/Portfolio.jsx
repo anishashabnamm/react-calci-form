@@ -1,6 +1,6 @@
 import React from 'react'
-import './Profilo.css';
-function Profilo() {
+import './Portfolio.css';
+function Portfolio() {
   return (
     <div class="container">
     <div class="header">
@@ -135,4 +135,4 @@ function Profilo() {
   )
 }
 
-export default Profilo
+export default Portfolio

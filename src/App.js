@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import CounterComponent from './components/CounterComponent'; 
 import Calculator from './components/Calculator';
-import Profilo from './components/Profilo';
+import Portfolio from './components/Portfolio';
 import Api from './components/Api';
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <li><Link to='/Api'>Api</Link></li>
     </ul>
     <Routes>
-      <Route exact path= '/' element={<Profilo/>}> </Route>
+      <Route exact path= '/' element={<Portfolio/>}> </Route>
       <Route exact path= '/Calculator' element={<Calculator/>}></Route>
       <Route exact path= '/CounterComponent' element={<CounterComponent/>}></Route>
       <Route exact path= '/Api' element={<Api/>}></Route>

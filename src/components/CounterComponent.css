@@ -1,0 +1,19 @@
+.counter
+{
+    text-align: center;
+    font-size: 30px;
+
+}
+p
+{
+    font-size: 100px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
