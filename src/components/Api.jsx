@@ -28,11 +28,12 @@ export class Api extends Component {
     const {apipost,errormessage}=this.state
     return (
         <React.Fragment>
-            <div className="rm">Rick And Morty</div>
-            <div className="">
+            <div className="rm">
+            <div className="rrm">
                 {apipost.length?apipost.map(a=> <div className="apidata" key={a.id}>
                                                                             {a.name}<br></br><img src={a.image} alt="loading"></img></div>):null}
                 {errormessage?<div>{errormessage}</div>:null}
+            </div>
             </div>
         </React.Fragment>
     )
