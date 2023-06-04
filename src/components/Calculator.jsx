@@ -45,7 +45,8 @@ return (
     <React.Fragment>
         <div className='calculator'>
           <div className='display'>
-            {output? <span></span> : null}{input || '0'}
+            {/* {output? <span></span> : null} */}
+            {input || '0'}
           </div>
 
           <div className='op'>
